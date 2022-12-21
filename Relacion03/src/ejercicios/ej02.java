@@ -2,18 +2,25 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class ej01 {
+public class ej02 {
 
 	public static void main(String[] args) {
 		// TODO Esbozo de método generado automáticamente
 		Scanner teclado= new Scanner(System.in);
 		System.out.println("introduce un numero: ");
 		int num1 = teclado.nextInt();
+		int i = 0;
 		
-		
-		for (int i = 0; i < 11; i++) {
+		while (i!=11) {
+			
 			System.out.println(num1 + " x " + i + " = " + (num1*i));
+			i++;
+			
 		}
+		
+		
+		
+		
 		
 		teclado.close();
 	}
