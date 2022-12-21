@@ -19,6 +19,7 @@ public class ej03 {
 			
 		} while (i!=11);
 		
+		teclado.close();
 	}
 
 }
